@@ -8,3 +8,5 @@
 
 3. El cambio de la ecuacion en calcularPrecioFinal no afecta en ningun sentido al metodo showPrecioFinal por lo que no existen incumplimientos con el DIP.
 
+
+4. El cambio que se propone en el enunciado permite corregir el conflicto que existia con OCP ya que al existir la clase aderezo como Enum se tuviese que agregar individualmente, y se crean los adicionales para controlar de cierta forma las restricciones de los tipos de aderezo.
