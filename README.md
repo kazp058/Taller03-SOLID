@@ -4,3 +4,7 @@
 
 
 2. OperacionesAderezo puede ser eliminada debido a que incumple con el OCP porque al tener un metodo por cada tipo de Objeto Postre habria que implementar nuevos metodos para estas nuevas clases. Y si se podria implementar estos metodos en la clase Postres para el cumplimiento de este principio, de esta forma al añadir estos metodos a la clase Postre nos aseguramos que las clases que hereden de esta clase Padre tengan acceso al metodo y no tener que repetirlo.
+
+
+3. El cambio de la ecuacion en calcularPrecioFinal no afecta en ningun sentido al metodo showPrecioFinal por lo que no existen incumplimientos con el DIP.
+
