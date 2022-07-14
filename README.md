@@ -10,3 +10,7 @@
 
 
 4. El cambio que se propone en el enunciado permite corregir el conflicto que existia con OCP ya que al existir la clase aderezo como Enum se tuviese que agregar individualmente, y se crean los adicionales para controlar de cierta forma las restricciones de los tipos de aderezo.
+
+
+5. El error que ocurre es porque en terminos funcionales dicha combinacion no se puede dar, lo cual esta bien de acuerdo al ISP.
+
